@@ -20,6 +20,9 @@ html, body {
 .stars__star:not(:last-child) {
   margin-right: 8px; 
 }
+.stars--0 .stars__star:nth-child(-n+0) {
+  background-image: url('./images/star-active.svg');
+}
 
 .stars--1 .stars__star:nth-child(-n+1) {
   background-image: url('./images/star-active.svg');
