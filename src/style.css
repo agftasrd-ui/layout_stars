@@ -10,8 +10,10 @@ html, body {
 }
 
 .stars__star {
-  width: 24px; 
-  height: 24px;
+  width: 16px; 
+  height: 16px;
+  background-position: center;
+  margin-right: 4px;
   background-image: url('./images/star-empty.svg'); 
   background-size: contain;
   background-repeat: no-repeat;
